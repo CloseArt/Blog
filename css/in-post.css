@@ -1,0 +1,96 @@
+﻿/*
+Theme Name: In Post Style - Close Art Blogger Theme
+Theme URI: https://www.facebook.com/closeart.id
+Author: Close Art
+Author URI: https://closeart-id.blogspot.com
+Description: Personal theme Close Art.
+Version: 3.0
+Tags: blue,white,red,black,2 columns,seo optimize
+*/
+
+/*=====================================
+= 1. Post Title
+=====================================*/
+.post-title{font-size:30px;font-weight:700;line-height:1.5;margin:0 auto;letter-spacing:-.6px;color:#444}
+#blog-pager{float:left;width:auto;height:auto;background:#1B1B1B;padding:10px 5px;border-radius:3px}
+#blog-pager a{color:#777}
+#blog-pager a:hover{color:#FFF}
+.pager-next,.pager-prev,.home-link{color:#FFF!important;background:#23B0E8;padding:0 17px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;float:left;margin:0 2px;line-height:22px}
+.clsart-head{font-size:16px;border-bottom:2px solid #ECF0F1;padding:0 0 5px;position:relative}
+.clsart-head:before{content:&quot;&quot;;border-bottom:2px solid #CF000F;width:24%;position:absolute;bottom:-2px}
+
+/*=====================================
+= 2. Breadcrumbs CSS
+=====================================*/
+.breadcrumbs{padding:0;margin-bottom:10px;color:#999}
+.breadcrumbs>i{padding:0 2px 0 5px}
+.breadcrumbs>span{display:inline-block}
+.breadcrumbs>span>a{color:#999}
+
+/*=====================================
+= 3.Theme Content CSS
+=====================================*/
+#closeart_thumbrave{overflow:hidden;max-height:400px;margin:0 -25px 20px;background:#F5F5F5;position:relative}
+#closeart_thumbrave:hover img{transform:translateY(-55%)}
+#closeart_thumbrave img{transition-duration:.35s;transition:all 3s ease-out}
+.note-yellow{font-family:&#39;Open Sans&#39;,sans-serif;display:block;background:#FBEED5;color:#333;border:1px solid #E7DBC4;padding:25px}
+.note-yellow hr{background:#E7DBC4}
+.note-yellow a{color:#34A1FF}
+.note-yellow a:hover{color:#E32;text-decoration:none}
+.note-error{background:indianred;position:relative;color:#FFF;padding:18px;line-height:18px;font-size:13px;box-shadow:0 2px 2px indianred}
+.note-error:after{font-family:&#39;FontAwesome&#39;;content:&#39;\f071&#39;;color:rgb(162,64,64);font-size:50px;margin-top:-10px;float:right}
+.post-download{margin:25px auto;margin-bottom:15px;padding:25px 25px 15px;background:#F3F3F3}
+.post-download>a{display:block;background:#FFF;padding:15px 20px;margin-bottom:10px;border:1px solid #E6E6E6;box-shadow:0 1px rgba(0,0,0,.1)}
+.post-download>a.prem{background:#2ECC71}
+.post-download>a.prem span{color:#FFF}
+.post-download>a.prem div p{color:#FFF}
+.post-download a span{color:#333;font-weight:700;text-transform:uppercase;font-size:14px;letter-spacing:.5px}
+.post-download>a.prem i{color:#FFF}
+.post-download>a.prem:hover{background:#27AE60}
+.post-download a i{float:left;margin-right:15px;font-size:25px;position:relative;top:10px;border-right:1px solid #E6E6E6;padding-right:15px;line-height:.8;color:#333}
+.post-download>a:hover{background:#FAFAFA;text-decoration:none}
+.post-download div{overflow:hidden;line-height:1.5}
+.post-download div p{margin:0;font-size:12px;color:#333}
+.notebg{margin-top:25px;min-height:20px}
+.notebg h3{font-size:24px;font-weight:700;padding-bottom:5px;text-align:center;;text-transform:uppercase;border-bottom:3px solid #DCDCDC}
+.notebg ul{margin:0;height:200px;max-height:280px;overflow:overlay;list-style:none}
+.notebg ul li{margin:15px;margin-bottom:0;list-style-type:circle}
+/* paragraph */
+.theme-content{text-align:left}
+.theme-content p{margin-bottom:10px;line-height:27px}
+.theme-content p>a,.theme-content a{border-bottom:1px dotted #D4CECE;padding-bottom:2px}
+.theme-content p>a:hover{color:#333;text-decoration:none}
+/* see also */
+.see-recom{position:relative;display:block;border-top:1px solid #DDD;border-bottom:1px solid #DDD;padding:10px 0;margin:20px 0 13px}
+.see-recom b{position:absolute;top:-15px;left:20px;margin:auto;width:85px;text-align:center;text-transform:uppercase;background:#FFF}
+.see-recom a{margin-left:25px;position:relative;display:block;border-bottom:0px}
+.see-recom a:hover{color:#333;text-decoration:none}
+.see-recom a:before{content:&quot;&quot;;list-style-type:disc;display:list-item;position:absolute}
+/* Heading - How to Use Theme */
+.theme-content .clsart-head{text-align:center;font-size:140%}
+.theme-content .h3-d{font-size:135%;border-left:5px solid #CF000F;padding-left:10px;line-height:1.1;margin:35px auto 20px}
+.theme-content .num-list{margin-bottom:10px;line-height:27px}
+.theme-content .num-list>li{text-align:left;font-weight:normal;margin:5px 0;list-style-type:none}
+.theme-content .num-list>li i{background-color:#18CFAB;color:#FFF;width:25px;height:25px;line-height:25px;text-align:center;border-radius:50%;margin-right:20px}
+/* Information Theme - head and info */
+.post-themeinfo{position:relative;margin-bottom:15px}
+.post-themeinfo h2{color:#555F61;font-size:13px;text-align:center;text-transform:uppercase;line-height:1.2}
+.post-themeinfo p{;margin:0;padding:10px;font-size:14px}
+.post-themeinfo p:nth-child(2n+1){background:#F5F6F9}
+.post-themeinfo p>b{width:105px;display:inline-block}
+.post-themeinfo p>a:hover{color:#DDD;text-decoration:none}
+.post-themeinfo a.submit{display:block;color:#FFF;background:#00ADFF;padding:8px 10px;margin-top:10px;border-radius:3px;text-align:center}
+.post-themeinfo a.submit:hover{background:#0A6AB6;text-decoration:none;transition:.5s}
+.post-themeinfo p>a.tp{background:#CF000F}
+.post-themeinfo p>a.blgr{background:-webkit-gradient(linear,left top,left bottom,from(#f57b54),to(#ff7043))}
+.post-themeinfo p>a.wp{background:#0085BA}
+.post-themeinfo p>a.tp,.post-themeinfo p>a.blgr,.post-themeinfo p>a.wp{width:auto;padding:2px 7px;color:#FFF;border-radius:2px;font-size:12px;display:inline-block;font-weight:700;margin-right:3px;text-transform:uppercase}
+
+/*=====================================
+= 4. Related Post CSS
+=====================================*/
+#related-post{width:100%;border-top:1px solid #E1E1E1;margin:8px auto;padding-top:15px}
+.related-post h2{font-size:150%;margin:0 0 5px;padding:0;font-weight:bold}
+.related-post li{line-height:1.6em;margin:0 0 0 30px;padding:0;list-style-type:disc}
+.related-post .widget{margin:0;padding:0}
+.related-post ul{list-style:none;margin:0;padding:0}
